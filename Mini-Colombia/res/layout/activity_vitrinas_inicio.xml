@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_title"
+        android:gravity="center|center_vertical" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:background="#D0D0D0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tituloVitrinas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="7dip"
+            android:background="@drawable/toolbar_subtitle"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dip"
+            android:text="VITRINAS."
+            android:textColor="#D0D0D0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="15dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imagenInicioVitrinas"
+                android:layout_width="194dip"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="104dip"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button1Vitrinas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_vitrinas"
+                    android:gravity="left|center_vertical"
+                    android:paddingBottom="1dip"
+                    android:paddingLeft="5dip"
+                    android:text="BARRANQ-
+                    UILLA."
+                    android:textColor="@android:color/white"
+                    android:typeface="normal"
+                    android:onClick="barranquilla" />
+
+                <Button
+                    android:id="@+id/button2Vitrinas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_vitrinas"
+                    android:gravity="left|center_vertical"
+                    android:onClick="medellin"
+                    android:paddingBottom="3dip"
+                    android:paddingLeft="5dip"
+                    android:text="MEDELLIN."
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/button3Vitrinas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_vitrinas"
+                    android:gravity="left|center_vertical"
+                    android:paddingBottom="3dip"
+                    android:paddingLeft="5dip"
+                    android:text="PEREIRA."
+                    android:textColor="@android:color/white"
+                    android:onClick="pereira" />
+
+                <Button
+                    android:id="@+id/button4Vitrinas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_vitrinas"
+                    android:gravity="left|center_vertical"
+                    android:paddingBottom="3dip"
+                    android:paddingLeft="5dip"
+                    android:text="BOGOTA."
+                    android:textColor="@android:color/white"
+                    android:onClick="bogota" />
+
+                <Button
+                    android:id="@+id/button5Vitrinas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_vitrinas"
+                    android:gravity="left|center_vertical"
+                    android:paddingBottom="3dip"
+                    android:paddingLeft="5dip"
+                    android:text="CALI."
+                    android:textColor="@android:color/white"
+                    android:onClick="cali" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

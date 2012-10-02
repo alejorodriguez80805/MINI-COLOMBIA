@@ -1,0 +1,63 @@
+#
+# generated on 2012/08/23 11:56:06
+#
+# --table-start--
+dataClass=com.mini_colombia.values.Persistencia
+tableName=persistencia
+# --table-fields-start--
+# --field-start--
+fieldName=bandera
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.mini_colombia.values.Timestamp
+tableName=timestamp
+# --table-fields-start--
+# --field-start--
+fieldName=timestamp
+dataPersister=BIG_DECIMAL
+# --field-end--
+# --field-start--
+fieldName=identificador
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.mini_colombia.values.Noticia
+tableName=noticia
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=categoria
+# --field-end--
+# --field-start--
+fieldName=resumen
+# --field-end--
+# --field-start--
+fieldName=pagina
+dataPersister=LONG_STRING
+# --field-end--
+# --field-start--
+fieldName=titulo
+indexName=noticia_titulo_idx
+# --field-end--
+# --field-start--
+fieldName=thumbnail
+dataPersister=LONG_STRING
+# --field-end--
+# --field-start--
+fieldName=fechaCreacion
+# --field-end--
+# --field-start--
+fieldName=url
+dataPersister=LONG_STRING
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

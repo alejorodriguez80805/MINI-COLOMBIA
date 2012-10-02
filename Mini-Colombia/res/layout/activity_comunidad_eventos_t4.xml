@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_title"
+        android:gravity="center|center_vertical" />
+
+    <TextView
+        android:id="@+id/tituloT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="7dip"
+        android:layout_marginTop="7dip"
+        android:background="@drawable/toolbar_subtitle"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="7dip"
+        android:text="COMUNIDAD."
+        android:textColor="#D0D0D0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="0.5"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearFondoTituloT4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#e21b14"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tituloImagenT4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:layout_marginTop="2dip"
+                        android:background="@android:color/black"
+                        android:paddingLeft="3dip"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <WebView
+                    android:id="@+id/webViewT4"
+                    android:layout_width="182dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dip"
+                    android:scrollbars="none" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dip"
+                    android:layout_marginTop="5dip" >
+
+                    <ImageButton
+                        android:id="@+id/eventosT4Facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:background="@android:color/transparent"
+                        android:onClick="abrirFacebook"
+                        android:src="@drawable/facebook" />
+
+                    <ImageButton
+                        android:id="@+id/eventosT4Twitter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/eventosT4Facebook"
+                        android:background="@android:color/transparent"
+                        android:onClick="abrirTwitter"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/twitter" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/imagenT4"
+                    android:layout_width="212dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dip"
+                    android:layout_marginTop="7dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

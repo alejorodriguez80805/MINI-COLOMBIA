@@ -1,0 +1,145 @@
+<resources>
+
+    <string name="app_name">Mini-Colombia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Instrucciones">INSTRUCCIONES</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="Autogermana">Autogermana</string>
+    <string name="Separador">.......................................................</string>
+    <string name="Instruccion1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</string>
+    <string name="Mini">MINI.</string>
+    <string name="btn_ini_instrucciones">btn_ini_instrucciones</string>
+    <string name="solicitar_test_drive">SOLICITAR TEST DRIVE</string>
+    <string name="TEST_DRIVE">TEST DRIVE.</string>
+    <string name="NOTICIAS">NOTICIAS.</string>
+    <string name="DESCARGAS">DESCARGAS.</string>
+    <string name="WALLPAPERS">WALLPAPERS.</string>
+    <string name="RINGTONES">RINGTONES.</string>
+
+    <!-- Constantes compartidas para cargar y acutalizar modelo y edicion -->
+
+
+    <!-- Tags modelo -->
+    <string name="TAG_MODELO">modelos</string>
+    <string name="TAG_IMAGEN_MODELO">imagen</string>
+    <string name="TAG_NOMBRE_MODELO">nombre</string>
+    <string name="TAG_THUMBNAIL_MODELO">thumbnail</string>
+
+    <!-- Tags ediciones -->
+    <string name="TAG_EDICIONES">ediciones</string>
+    <string name="TAG_IMAGEN_EDICION">imagen</string>
+    <string name="TAG_NOMBRE_EDICION">nombre</string>
+    <string name="TAG_DESCRIPCION_EDICION">descripcion</string>
+    <string name="TAG_IMAGEN_THUMBNAIL_EDICION">thumbnail</string>
+    <string name="TAG_TEST_DRIVE_EDICION">test_drive</string>
+    <string name="TAG_TEMPLATE_EDICION">template_color</string>
+
+    <!-- Constante para el nombre de las imagenes -->
+    <string name="CONSTANTE_NOMBRE_IMAGEN_MODELO">imagen_modelo_</string>
+    <string name="CONSTANTE_THUMBNAIL_MODELO">imagen_thumbnail_modelo_</string>
+    <string name="CONSTANTE_NOMBRE_IMAGEN_EDICION">imagen_edicion_</string>
+    <string name="CONSTANTE_NOMBRE_THUMBNAIL_EDICION">imagen_thumbnail_edicion_</string>
+    <string name="CONSTANTE_NOMBRE_THUMBNAIL_NOTICIA">imagen_thumbnail_noticia_</string>
+
+    <!-- Constantes URL -->
+    <string name="CONSTANTE_CARGAR_MODELO_EDICION_URL">http://minicolombia.herokuapp.com/familiaMini/dar-modelos/</string>
+    <string name="CONSTANTE_ACTUALIZAR_MODELO_EDICION_URL">http://minicolombia.herokuapp.com/familiaMini/hayNuevosModelos/</string>
+    <string name="CONSTANTE_CARGAR_NOTICIAS_URL">http://minicolombia.herokuapp.com/noticias/darUltimasNoticias/</string>
+    <string name="CONSTANTE_NOTICIAS_CATEGORIAS">http://minicolombia.herokuapp.com/noticias/darNoticiasPorCategoria/</string>
+    <string name="CONSTANTE_DESCARGAS_WALLPAPERS">http://minicolombia.herokuapp.com/descargas/darUltimosWallpapers/</string>
+    <string name="CONSTANTE_DESCARGAS_SIGUIENTES_WALLPAPERS">http://minicolombia.herokuapp.com/descargas/darSiguientesWallpapers/</string>
+    <string name="CONSTANTE_DESCARGAS_RINGTONES">http://minicolombia.herokuapp.com/descargas/darRingtones/</string>
+    <string name="CONSTANTE_COMUNIDAD_GALERIA">http://minicolombia.herokuapp.com/comunidad/darUltimasImagenes/</string>
+    <string name="CONSTANTE_COMUNIDAD_GALERIA_SIGUIENTES">http://minicolombia.herokuapp.com/comunidad/darSiguientesImagenes/</string>
+    <string name="CONSTANTE_COMUNIDAD_DAR_EVENTOS">http://minicolombia.herokuapp.com/comunidad/darNuevosEventos/</string>
+
+    <!-- Constantes individuales para actualizar modelo y edicion -->
+    <string name="TAG_CREAR">CREATE</string>
+    <string name="TAG_ACTUALIZAR">UPDATE</string>
+    <string name="TAG_ELIMINAR">DELETE</string>
+    <string name="TAG_NOMBRE_MODELO_EDICION">nombre_modelo</string>
+
+    <!-- Constantes compartidas para cargar -->
+    <string name="TAG_TIPO">tipo</string>
+    <string name="TAG_ACTUALIZACIONES">actualizaciones</string>
+    <string name="TAG_HAY_ACTUALIZACIONES">hayActualizaciones</string>
+    <string name="TAG_ACCION">accion</string>
+
+    <!-- Tag para el timestamp -->
+    <string name="TAG_TIMESTAMP">timestamp</string>
+
+    <!-- Tags para la seccion de noticias -->
+    <string name="TAG_NOTICIAS">noticias</string>
+    <string name="TAG_NOTICIAS_CATEGORIA">categoria</string>
+    <string name="TAG_NOTICIAS_RESUMEN">resumen</string>
+    <string name="TAG_NOTICIAS_PAGINA">pagina</string>
+    <string name="TAG_NOTICIAS_TITULO">titulo</string>
+    <string name="TAG_NOTICIAS_THUMBNAIL">thumbnailURL</string>
+    <string name="TAG_NOTICIAS_FECHA_CREACION">fecha_creacion</string>
+    <string name="TAG_NOTICIAS_URL">paginaURL</string>
+
+    <!-- Tags para la seccion de descargas -->
+    <string name="TAG_WALLPAPERS">wallpapers</string>
+    <string name="TAG_WALLPAPERS_THUMBNAIL">thumbnailURL</string>
+    <string name="TAG_WALLPAPERS_IMAGEN">imagenURL</string>
+    <string name="TAG_WALLPAPERS_NOMBRE">nombre</string>
+    <string name="TAG_NOMBRE_ARCHIVO_RINGTONE">/Mini.mp3</string>
+    <string name="TAG_RINGTONES">ringtones</string>
+    <string name="TAG_NOMBRE_RINGTONES">nombre</string>
+    <string name="TAG_URL_RINGTONES">archivoURL</string>
+    <string name="TAG_WALLPAPERS_NUMERO">num_wallpapers</string>
+
+    <!-- Tags para la seccion de comunidad -->
+    <!-- Tags para la seccion de galeria -->
+    <string name="TAG_COMUNIDAD_GALERIA_IMAGENES">imagenes</string>
+    <string name="TAG_COMUNIDAD_GALERIA_NOMBRE">nombre</string>
+    <string name="TAG_COMUNIDAD_GALERIA_THUMBNAIL">thumbnailURL</string>
+    <string name="TAG_COMUNIDAD_GALERIA_IMAGEN">imagenURL</string>
+    <string name="TAG_COMUNIDAD_GALERIA_NUMERO">num_imagenes</string>
+    <!-- Tags para la seccion de eventos -->
+    <string name="TAG_COMUNIDAD_EVENTOS_SUBTITULO">subtitulo</string>
+    <string name="TAG_COMUNIDAD_EVENTOS_CONTENIDO">contenido</string>
+    <string name="TAG_COMUNIDAD_EVENTOS_FECHA">fecha</string>
+    <string name="TAG_COMUNIDAD_EVENTOS_TEMPLATE">template</string>
+    <string name="TAG_COMUNIDAD_EVENTOS_POSICION">posicion</string>
+    <string name="TAG_COMUNIDAD_EVENTOS_TITULO">titulo</string>
+    <string name="TAG_COMUNIDAD_EVENTOS_THUMBNAIL_URL">thumbnailURL</string>
+    <string name="TAG_COMUNIDAD_EVENTOS_IMAGENES">imagenes</string>
+    <string name="TAG_COMUNIDAD_EVENTOS_TEMPLATE_COLOR">template_color</string>
+    <string name="TAG_COMUNIDAD_EVENTOS">eventos</string>
+
+    <!-- Tags para la seccion de vitrinas -->
+    <string name="TAG_VITRINAS_DIRECCION_BARRANQUILLA"> Av. Circunvalar entre Cras. 43 y 46</string>
+    <string name="TAG_VITRINAS_DIRECCION_MEDELLIN">Cra. 42A No. 19-115</string>
+    <string name="TAG_VITRINAS_DIRECCION_PEREIRA"> Av Circunvalar 13-40 Centro Comercial Uniplex L. 10</string>
+    <string name="TAG_VITRINAS_DIRECCION_BOGOTA">Carrera 18 No. 120-81</string>
+    <string name="TAG_VITRINAS_DIRECCION_CALI">Av. 6 Norte No. 40 - 41</string>
+    <string name="TAG_VITRINAS_TELEFONO_CONSTANTE">Tel:</string>
+    <string name="TAG_VITRINAS_TELEFONO_BARRANQUILLA">57.5.367 0100</string>
+    <string name="TAG_VITRINAS_TELEFONO_MEDELLIN">57.4.261 2586</string>
+    <string name="TAG_VITRINAS_TELEFONO_PEREIRA">57.6.340 0561</string>
+    <string name="TAG_VITRINAS_TELEFONO_BOGOTA">57.1.629 0577</string>
+    <string name="TAG_VITRINAS_TELEFONO_CALI">57.2.683 8175</string>
+    <string name="TAG_VITRINAS_NOMBRE_MECANICO_CONSTANTE">LO ATENDERA:</string>
+    <string name="TAG_VITRINAS_NOMBRE_MECANICO_BQUILLA">Melissa Pedroza</string>
+    <string name="TAG_VITRINAS_NOMBRE_MECANICO_MEDELLIN">Catalina Ferrer</string>
+    <string name="TAG_VITRINAS_NOMBRE_MECANICO_MEDELLIN2">Federico Mejía</string>
+    <string name="TAG_VITRINAS_NOMBRE_MECANICO_PEREIRA">ALEJANDRO RODRIGUEZ</string>
+    <string name="TAG_VITRINAS_NOMBRE_MECANICO_BOGOTA">Bibiana Díaz</string>
+    <string name="TAG_VITRINAS_NOMBRE_MECANICO_CALI">Juliana Rodríguez</string>
+    <string name="TAG_VITRINAS_MAIL_MECANICO_BQUILLA">alejo80805@hotmail.com</string>
+    <string name="TAG_VITRINAS_MAIL_MECANICO_MEDELLIN">alejo80805@hotmail.com</string>
+    <string name="TAG_VITRINAS_MAIL_MECANICO_MEDELLIN2">alejo80805@hotmail.com</string>
+    <string name="TAG_VITRINAS_MAIL_MECANICO_PEREIRA">alejo80805@hotmail.com</string>
+    <string name="TAG_VITRINAS_MAIL_MECANICO_BOGOTA">alejo80805@hotmail.com</string>
+    <string name="TAG_VITRINAS_MAIL_MECANICO_CALI">alejo80805@hotmail.com</string>
+    <string name="TAG_VITRINAS_CELULAR_MECANICO_CONSTANTE">cel:</string>
+    <string name="TAG_VITRINAS_CELULAR_MECANICO_BQUILLA">321 567 4567</string>
+    <string name="TAG_VITRINAS_CELULAR_MECANICO_MEDELLIN">321 567 4567</string>
+    <string name="TAG_VITRINAS_CELULAR_MECANICO_MEDELLIN2">321 567 4567</string>
+    <string name="TAG_VITRINAS_CELULAR_MECANICO_PEREIRA">321 567 4567</string>
+    <string name="TAG_VITRINAS_CELULAR_MECANICO_BOGOTA">321 567 4567</string>
+    <string name="TAG_VITRINAS_CELULAR_MECANICO_CALI">321 567 4567</string>
+
+</resources>
