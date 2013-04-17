@@ -65,7 +65,7 @@ public class FamiliaModelos extends Activity
 		InputStream is;
 		try 
 		{
-			is = am.open("familia/modelos.xml");
+			is = am.open("familia/modelos.json");
 			Parser parser = new Parser();
 			JSONObject objeto = parser.getJsonFromInputStream(is);
 			JSONArray modelos = objeto.getJSONArray(getString(R.string.TAG_MODELO));

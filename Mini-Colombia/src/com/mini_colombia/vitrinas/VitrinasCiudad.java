@@ -75,7 +75,7 @@ public class VitrinasCiudad extends Activity
 			celularMecanico.setText(getString(R.string.TAG_VITRINAS_CELULAR_MECANICO_CONSTANTE) + ESPACIO + getString(R.string.TAG_VITRINAS_CELULAR_MECANICO_BQUILLA));
 			break;
 		case 2:
-			tituloCiudad.setText("MEDELLIN.");
+			tituloCiudad.setText("MEDELLÍN.");
 			
 			imagenPreliminar = BitmapFactory.decodeResource(res, R.drawable.imagen_vitrina_ciudad_medellin);
 			imagenFinal = Resize.resizeBitmap(imagenPreliminar, (int)Math.round(anchoImagen*0.71), (int) anchoImagen);

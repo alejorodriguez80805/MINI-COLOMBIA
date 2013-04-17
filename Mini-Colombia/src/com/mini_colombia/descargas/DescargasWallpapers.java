@@ -81,6 +81,8 @@ public class DescargasWallpapers extends Activity implements AsyncTaskListener<A
 
 		Typeface tipoMini = Typeface.createFromAsset(getAssets(), "fonts/mibd.ttf");
 		TextView titulo = (TextView)findViewById(R.id.tituloDescargasWallpapers);
+		Button verMas = (Button)findViewById(R.id.botonDescargasVerMas);
+		verMas.setTypeface(tipoMini);
 		titulo.setTypeface(tipoMini);
 
 		numActualImagenes = 0;
@@ -156,8 +158,15 @@ public class DescargasWallpapers extends Activity implements AsyncTaskListener<A
 
 
 			else
+			{
 				jsonObject = jparser.getJSONFromUrl(getString(R.string.CONSTANTE_DESCARGAS_SIGUIENTES_WALLPAPERS)+params[0]);
-
+				
+				String p = getString(R.string.CONSTANTE_DESCARGAS_SIGUIENTES_WALLPAPERS)+params[0];
+				
+				String a = "a" +p;
+	
+			}
+				
 			try 
 			{
 				JSONArray wallpapers = jsonObject.getJSONArray(getString(R.string.TAG_WALLPAPERS));
@@ -216,7 +225,7 @@ public class DescargasWallpapers extends Activity implements AsyncTaskListener<A
 		for(int i=0;i<result.size();i++)
 		{
 			final int j =i;
-			final int k = result.size();
+			final int k = numActualImagenes;//result.size();
 			final String url= result.get(i).getImagen();
 			final String titulo = result.get(i).getNombre();
 			View v = new View(this);
@@ -225,7 +234,7 @@ public class DescargasWallpapers extends Activity implements AsyncTaskListener<A
 			layoutPrincipal.addView(v);
 
 			RelativeLayout relLayout = new RelativeLayout(this);
-			relLayout.setBackgroundColor(Color.TRANSPARENT);
+			relLayout.setBackgroundColor(Color.WHITE);
 			relLayout.setBackgroundDrawable(new BitmapDrawable(result.get(i).getThumbnail()));
 			
 			int x = result.get(i).getThumbnail().getWidth();
@@ -264,143 +273,110 @@ public class DescargasWallpapers extends Activity implements AsyncTaskListener<A
 			});
 			relLayout.addView(thumbnail);
 
-			Button bDescargar = new Button(this);
-			bDescargar.setBackgroundColor(Color.TRANSPARENT);
-			final String urlImagen = result.get(i).getImagen();
-			final String nombreImagen = result.get(i).getNombre();
-			bDescargar.setOnClickListener(new OnClickListener() 
-			{
-
-				@Override
-				public void onClick(View v) 
-				{
-					Bitmap b = null;
-					String path = Environment.getExternalStorageDirectory().toString() + SEPARADOR + NOMBRE_CARPETA;
-					File directorio = new File(path);
-					if(!directorio.exists())
-						directorio.mkdir();
-
-					File f = new File(path,nombreImagen+ EXTENSION);
-					if(!f.exists())
-					{
-						try 
-						{
-							b = new DescargarImagen().execute(urlImagen).get();
-						} 
-						catch (InterruptedException e1) 
-						{
-							// TODO Auto-generated catch block
-							e1.printStackTrace();
-						} 
-						catch (ExecutionException e1) 
-						{
-							// TODO Auto-generated catch block
-							e1.printStackTrace();
-						}
-						OutputStream fos;
-						try 
-						{
-							fos = new FileOutputStream(f);
-							b.compress(Bitmap.CompressFormat.JPEG, 85, fos);
-							fos.flush();
-							fos.close();
-							MediaStore.Images.Media.insertImage(getContentResolver(), f.getAbsolutePath(), nombreImagen+ EXTENSION, f.getName());
-							AlertDialog.Builder alertBuilder = new AlertDialog.Builder(darContexto());
-							alertBuilder.setMessage("La imagen ha sido descargada.");
-							alertBuilder.setCancelable(false);
-							alertBuilder.setNeutralButton("Aceptar", new DialogInterface.OnClickListener() 
-							{
-
-								@Override
-								public void onClick(DialogInterface dialog, int which) 
-								{
-
-								}
-							});
-							AlertDialog alerta = alertBuilder.create();
-							alerta.show();
-
-						} 
-						catch (FileNotFoundException e) 
-						{
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						} 
-						catch (IOException e) 
-						{
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						}
-
-					}
-					else
-					{
-						AlertDialog.Builder alertBuilder = new AlertDialog.Builder(darContexto());
-						alertBuilder.setMessage("La imagen ya ha sido descargada.");
-						alertBuilder.setCancelable(false);
-						alertBuilder.setNeutralButton("Aceptar", new DialogInterface.OnClickListener() 
-						{
-
-							@Override
-							public void onClick(DialogInterface dialog, int which) 
-							{
-
-							}
-						});
-						AlertDialog alerta = alertBuilder.create();
-						alerta.show();
-
-
-
-					}	
-				}
-			});
-			RelativeLayout.LayoutParams paramsbutton = new RelativeLayout.LayoutParams( (int) Math.round((float)x*0.3) , (int) Math.round((float) y*0.2));
-			paramsbutton.setMargins( (int) Math.round((float)x*0.65) , (int) Math.round((float) y*0.8), 0, 0);
-			bDescargar.setLayoutParams(paramsbutton);
-			relLayout.addView(bDescargar);
+			//Este boton era el que iba a ir en las imagenes para descargarlas directamente
+			
+//			Button bDescargar = new Button(this);
+//			bDescargar.setBackgroundColor(Color.RED);
+//			final String urlImagen = result.get(i).getImagen();
+//			final String nombreImagen = result.get(i).getNombre();
+//			bDescargar.setOnClickListener(new OnClickListener() 
+//			{
+//
+//				@Override
+//				public void onClick(View v) 
+//				{
+//					Bitmap b = null;
+//					String path = Environment.getExternalStorageDirectory().toString() + SEPARADOR + NOMBRE_CARPETA;
+//					File directorio = new File(path);
+//					if(!directorio.exists())
+//						directorio.mkdir();
+//
+//					File f = new File(path,nombreImagen+ EXTENSION);
+//					if(!f.exists())
+//					{
+//						try 
+//						{
+//							b = new DescargarImagen().execute(urlImagen).get();
+//						} 
+//						catch (InterruptedException e1) 
+//						{
+//							// TODO Auto-generated catch block
+//							e1.printStackTrace();
+//						} 
+//						catch (ExecutionException e1) 
+//						{
+//							// TODO Auto-generated catch block
+//							e1.printStackTrace();
+//						}
+//						OutputStream fos;
+//						try 
+//						{
+//							fos = new FileOutputStream(f);
+//							b.compress(Bitmap.CompressFormat.JPEG, 85, fos);
+//							fos.flush();
+//							fos.close();
+//							MediaStore.Images.Media.insertImage(getContentResolver(), f.getAbsolutePath(), nombreImagen+ EXTENSION, f.getName());
+//							AlertDialog.Builder alertBuilder = new AlertDialog.Builder(darContexto());
+//							alertBuilder.setMessage("La imagen ha sido descargada.");
+//							alertBuilder.setCancelable(false);
+//							alertBuilder.setNeutralButton("Aceptar", new DialogInterface.OnClickListener() 
+//							{
+//
+//								@Override
+//								public void onClick(DialogInterface dialog, int which) 
+//								{
+//
+//								}
+//							});
+//							AlertDialog alerta = alertBuilder.create();
+//							alerta.show();
+//
+//						} 
+//						catch (FileNotFoundException e) 
+//						{
+//							// TODO Auto-generated catch block
+//							e.printStackTrace();
+//						} 
+//						catch (IOException e) 
+//						{
+//							// TODO Auto-generated catch block
+//							e.printStackTrace();
+//						}
+//
+//					}
+//					else
+//					{
+//						AlertDialog.Builder alertBuilder = new AlertDialog.Builder(darContexto());
+//						alertBuilder.setMessage("La imagen ya ha sido descargada.");
+//						alertBuilder.setCancelable(false);
+//						alertBuilder.setNeutralButton("Aceptar", new DialogInterface.OnClickListener() 
+//						{
+//
+//							@Override
+//							public void onClick(DialogInterface dialog, int which) 
+//							{
+//
+//							}
+//						});
+//						AlertDialog alerta = alertBuilder.create();
+//						alerta.show();
+//
+//
+//
+//					}	
+//				}
+//			});
+//			RelativeLayout.LayoutParams paramsbutton = new RelativeLayout.LayoutParams( (int) Math.round((float)x*0.3) , (int) Math.round((float) y*0.2));
+//			paramsbutton.setMargins( (int) Math.round((float)x*0.65) , (int) Math.round((float) y*0.8), 0, 0);
+//			bDescargar.setLayoutParams(paramsbutton);
+//			relLayout.addView(bDescargar);
 
 			layoutPrincipal.addView(relLayout, relParams);
 		}
 
-		Button verMas = new Button(this);
-		verMas.setBackgroundColor(Color.BLACK);
-		LinearLayout.LayoutParams paramsVerMas = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT,LayoutParams.WRAP_CONTENT);
-		paramsVerMas.setMargins(0, 7, 0, 0);
-		verMas.setLayoutParams(paramsVerMas);
-		verMas.setText("VER MAS");
-		verMas.setTextSize(12);
-		verMas.setTextColor(Color.WHITE);
-		verMas.setGravity(Gravity.CENTER_VERTICAL|Gravity.LEFT);
-		verMas.setOnClickListener(new OnClickListener() {
 
-			@Override
-			public void onClick(View v) 
-			{
-				if(numActualImagenes<numWallpapers)
-				{
-					ejecutarTareaDescargarThumbnails();
-				}
-				else
-				{
-					AlertDialog.Builder alertBuilder = new AlertDialog.Builder(darContexto());
-					alertBuilder.setMessage("Ha llegado al limite de imagenes.");
-					alertBuilder.setCancelable(false);
-					alertBuilder.setNeutralButton("Aceptar", new DialogInterface.OnClickListener() 
-					{
-
-						@Override
-						public void onClick(DialogInterface dialog, int which) 
-						{
-
-						}
-					});
-					AlertDialog alerta = alertBuilder.create();
-					alerta.show();
-				}
-			}
-		});
-		layoutPrincipal.addView(verMas);
+		
+		
 
 
 
@@ -448,7 +424,7 @@ public class DescargasWallpapers extends Activity implements AsyncTaskListener<A
 	 */
 	public void ejecutarTareaDescargarThumbnails()
 	{
-		new DescargarThumbnails(darContexto(), this, false).execute(""+numWallpapers);
+		new DescargarThumbnails(darContexto(), this, false).execute(""+numActualImagenes);
 
 	}
 
@@ -481,6 +457,34 @@ public class DescargasWallpapers extends Activity implements AsyncTaskListener<A
 	public Context darContextoDialogo()
 	{
 		return this;
+	}
+	
+	public void verMas(View v) 
+	{
+		int a = numActualImagenes;
+		int b = numWallpapers;
+		
+		if(numActualImagenes<numWallpapers)
+		{
+			ejecutarTareaDescargarThumbnails();
+		}
+		else
+		{
+			AlertDialog.Builder alertBuilder = new AlertDialog.Builder(darContexto());
+			alertBuilder.setMessage("Ha llegado al limite de imagenes.");
+			alertBuilder.setCancelable(false);
+			alertBuilder.setNeutralButton("Aceptar", new DialogInterface.OnClickListener() 
+			{
+
+				@Override
+				public void onClick(DialogInterface dialog, int which) 
+				{
+
+				}
+			});
+			AlertDialog alerta = alertBuilder.create();
+			alerta.show();
+		}
 	}
 
 

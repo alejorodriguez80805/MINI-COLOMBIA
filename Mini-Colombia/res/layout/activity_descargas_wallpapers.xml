@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/toolbar_title"
         android:gravity="center|center_vertical" />
-
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="0dip"
@@ -31,7 +31,7 @@
             android:paddingLeft="7dip"
             android:text="@string/WALLPAPERS"
             android:textColor="#D0D0D0" />
-
+
         <ScrollView
             android:id="@+id/scrollViewWallpapers"
             android:layout_width="match_parent"
@@ -50,6 +50,19 @@
             </LinearLayout>
         </ScrollView>
 
+        <Button
+            android:id="@+id/botonDescargasVerMas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="7dip"
+            android:background="@drawable/toolbar_subtitle"
+            android:gravity="center_vertical"
+            android:onClick="verMas"
+            android:paddingLeft="7dip"
+            android:text="Ver Más"
+            android:textColor="#D0D0D0" />
     </LinearLayout>
 
 </LinearLayout>
