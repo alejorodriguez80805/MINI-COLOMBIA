@@ -1,0 +1,240 @@
+{
+"modelos": [
+        {
+        "nombre": "MINI CABRIO.",
+        "imagen": "mini_cabrio_principal",
+        "ediciones": [
+            {
+                "template_color": "255,255,0",
+                "imagen": "cabrio_mini",
+                "test_drive": false,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI CABRIO.",
+                "thumbnail": "thumbnail_cabrio_mini"
+            },
+            {
+                "template_color": "225,81,12",
+                "imagen": "cabrio_mini_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI COOPER CABRIO.",
+                "thumbnail": "thumbnail_cabrio_mini_cooper"
+            },
+            {
+                "template_color": "153,254,254",
+                "imagen": "cabrio_mini_cooper_s",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tTodo deportividad. El MINI Cooper S impresiona por su caracter&iacute;stica toma de aire en el cap&oacute;, la parrilla delantera de dise&ntilde;o hexagonal con marco cromado y las inconfundibles tomas de aire en la parrilla inferior para la ventilaci&oacute;n de los frenos. Subraya su potencia con las deportivas llantas de aleaci&oacute;n ligera de 16 pulgadas, el doble tubo de escape en posici&oacute;n central y el vigoroso fald&oacute;n trasero.</p>\r\n</div>\r\n</body>\r\n</html>\r\n",
+                "nombre": "MINI COOPER S CABRIO.",
+                "thumbnail": "thumbnail_cabrio_mini_cooper_s"
+            },
+            {
+                "template_color": "203,23,19",
+                "imagen": "cabrio_mini_john_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\t\tParece un gokart. Pero para adultos. Las barras de la parrilla delantera del MINI Cooper est&aacute;n cromadas. Para el techo se puede elegir de serie entre el negro y el blanco, contrastando con el color de la carrocer&iacute;a. A juego: el color de la tapas de los retrovisores. Los tiradores del port&oacute;n trasero relucen en cromo. Y tambi&eacute;n sus deportivas llantas de aleaci&oacute;n ligera de 15 pulgadas se ofrecen de serie.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI JOHN COOPER WORKS CABRIO.",
+                "thumbnail": "thumbnail_cabrio_john_cooper"
+            }
+        ],
+        "thumbnail": "thumbnail_cabrio"
+    },
+            {
+        "nombre": "MINI.",
+        "imagen": "mini_principal",
+        "ediciones": [
+            {
+                "template_color": "203,23,19",
+                "imagen": "mini_mini",
+                "test_drive": false,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI.",
+                "thumbnail": "thumbnail_mini_mini"
+            },
+            {
+                "template_color": "203,23,19",
+                "imagen": "mini_mini_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI COOPER.",
+                "thumbnail": "thumbnail_mini_mini_cooper"
+            },
+            {
+                "template_color": "102,102,102",
+                "imagen": "mini_mini_cooper_s",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tTodo deportividad. El MINI Cooper S impresiona por su caracter&iacute;stica toma de aire en el cap&oacute;, la parrilla delantera de dise&ntilde;o hexagonal con marco cromado y las inconfundibles tomas de aire en la parrilla inferior para la ventilaci&oacute;n de los frenos. Subraya su potencia con las deportivas llantas de aleaci&oacute;n ligera de 16 pulgadas, el doble tubo de escape en posici&oacute;n central y el vigoroso fald&oacute;n trasero.</p>\r\n</div>\r\n</body>\r\n</html>\r\n",
+                "nombre": "MINI COOPER S.",
+                "thumbnail": "thumbnail_mini_mini_cooper_s"
+            },
+            {
+                "template_color": "203,23,19",
+                "imagen": "mini_mini_john_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\t\tParece un gokart. Pero para adultos. Las barras de la parrilla delantera del MINI Cooper est&aacute;n cromadas. Para el techo se puede elegir de serie entre el negro y el blanco, contrastando con el color de la carrocer&iacute;a. A juego: el color de la tapas de los retrovisores. Los tiradores del port&oacute;n trasero relucen en cromo. Y tambi&eacute;n sus deportivas llantas de aleaci&oacute;n ligera de 15 pulgadas se ofrecen de serie.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI JOHN COOPER WORKS.",
+                "thumbnail": "thumbnail_mini_john_cooper"
+            }
+        ],
+        "thumbnail": "thumbnail_mini"
+    },
+     {
+        "nombre": "MINI CLUBMAN.",
+        "imagen": "mini_principal",
+        "ediciones": [
+            {
+                "template_color": "102,102,102",
+                "imagen": "clubman_mini",
+                "test_drive": false,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI CLUBMAN.",
+                "thumbnail": "thumbnail_clubman_mini"
+            },
+            {
+                "template_color": "204,0,0",
+                "imagen": "clubman_mini_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI COOPER CLUBMAN.",
+                "thumbnail": "thumbnail_clubman_mini_cooper"
+            },
+            {
+                "template_color": "153,254,254",
+                "imagen": "clubman_mini_cooper_s",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tTodo deportividad. El MINI Cooper S impresiona por su caracter&iacute;stica toma de aire en el cap&oacute;, la parrilla delantera de dise&ntilde;o hexagonal con marco cromado y las inconfundibles tomas de aire en la parrilla inferior para la ventilaci&oacute;n de los frenos. Subraya su potencia con las deportivas llantas de aleaci&oacute;n ligera de 16 pulgadas, el doble tubo de escape en posici&oacute;n central y el vigoroso fald&oacute;n trasero.</p>\r\n</div>\r\n</body>\r\n</html>\r\n",
+                "nombre": "MINI COOPER S CLUBMAN.",
+                "thumbnail": "thumbnail_clubman_mini_cooper_s"
+            },
+            {
+                "template_color": "203,23,19",
+                "imagen": "clubman_mini_john_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\t\tParece un gokart. Pero para adultos. Las barras de la parrilla delantera del MINI Cooper est&aacute;n cromadas. Para el techo se puede elegir de serie entre el negro y el blanco, contrastando con el color de la carrocer&iacute;a. A juego: el color de la tapas de los retrovisores. Los tiradores del port&oacute;n trasero relucen en cromo. Y tambi&eacute;n sus deportivas llantas de aleaci&oacute;n ligera de 15 pulgadas se ofrecen de serie.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI JOHN COOPER WORKS CLUBMAN.",
+                "thumbnail": "thumbnail_clubman_john_cooper"
+            }
+        ],
+        "thumbnail": "thumbnail_clubman"
+    },
+     {
+        "nombre": "MINI COUP….",
+        "imagen": "mini_principal",
+        "ediciones": [
+            {
+                "template_color": "153,255,0",
+                "imagen": "coupe_mini",
+                "test_drive": false,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI COUP….",
+                "thumbnail": "thumbnail_coupe_mini"
+            },
+            {
+                "template_color": "204,23,19",
+                "imagen": "coupe_mini_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI COOPER COUP√….",
+                "thumbnail": "thumbnail_coupe_mini_cooper"
+            },
+            {
+                "template_color": "0,153,248",
+                "imagen": "coupe_mini_cooper_s",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tTodo deportividad. El MINI Cooper S impresiona por su caracter&iacute;stica toma de aire en el cap&oacute;, la parrilla delantera de dise&ntilde;o hexagonal con marco cromado y las inconfundibles tomas de aire en la parrilla inferior para la ventilaci&oacute;n de los frenos. Subraya su potencia con las deportivas llantas de aleaci&oacute;n ligera de 16 pulgadas, el doble tubo de escape en posici&oacute;n central y el vigoroso fald&oacute;n trasero.</p>\r\n</div>\r\n</body>\r\n</html>\r\n",
+                "nombre": "MINI COOPER S COUP….",
+                "thumbnail": "thumbnail_coupe_mini_cooper_s"
+            },
+            {
+                "template_color": "204,23,19",
+                "imagen": "coupe_mini_john_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\t\tParece un gokart. Pero para adultos. Las barras de la parrilla delantera del MINI Cooper est&aacute;n cromadas. Para el techo se puede elegir de serie entre el negro y el blanco, contrastando con el color de la carrocer&iacute;a. A juego: el color de la tapas de los retrovisores. Los tiradores del port&oacute;n trasero relucen en cromo. Y tambi&eacute;n sus deportivas llantas de aleaci&oacute;n ligera de 15 pulgadas se ofrecen de serie.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI JOHN COOPER WORKS COUP….",
+                "thumbnail": "thumbnail_coupe_john_cooper"
+            }
+        ],
+        "thumbnail": "thumbnail_coupe"
+    },
+	{
+        "nombre": "MINI ROADSTER.",
+        "imagen": "mini_principal",
+        "ediciones": [
+            {
+                "template_color": "255,204,153",
+                "imagen": "roadster_mini",
+                "test_drive": false,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI ROADSTER.",
+                "thumbnail": "thumbnail_roadster_mini"
+            },
+            {
+                "template_color": "225,81,12",
+                "imagen": "roadster_mini_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI COOPER ROADSTER.",
+                "thumbnail": "thumbnail_roadster_mini_cooper"
+            },
+            {
+                "template_color": "102,102,102",
+                "imagen": "roadster_mini_cooper_s",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tTodo deportividad. El MINI Cooper S impresiona por su caracter&iacute;stica toma de aire en el cap&oacute;, la parrilla delantera de dise&ntilde;o hexagonal con marco cromado y las inconfundibles tomas de aire en la parrilla inferior para la ventilaci&oacute;n de los frenos. Subraya su potencia con las deportivas llantas de aleaci&oacute;n ligera de 16 pulgadas, el doble tubo de escape en posici&oacute;n central y el vigoroso fald&oacute;n trasero.</p>\r\n</div>\r\n</body>\r\n</html>\r\n",
+                "nombre": "MINI COOPER S ROADSTER.",
+                "thumbnail": "thumbnail_roadster_mini_cooper_s"
+            },
+            {
+                "template_color": "204,0,0",
+                "imagen": "roadster_mini_john_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\t\tParece un gokart. Pero para adultos. Las barras de la parrilla delantera del MINI Cooper est&aacute;n cromadas. Para el techo se puede elegir de serie entre el negro y el blanco, contrastando con el color de la carrocer&iacute;a. A juego: el color de la tapas de los retrovisores. Los tiradores del port&oacute;n trasero relucen en cromo. Y tambi&eacute;n sus deportivas llantas de aleaci&oacute;n ligera de 15 pulgadas se ofrecen de serie.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI JOHN COOPER WORKS ROADSTER.",
+                "thumbnail": "thumbnail_roadster_john_cooper"
+            }
+        ],
+        "thumbnail": "thumbnail_roadster"
+    },
+    {
+        "nombre": "MINI COUNTRYMAN.",
+        "imagen": "mini_principal",
+        "ediciones": [
+            {
+                "template_color": "255,255,255",
+                "imagen": "countryman_mini",
+                "test_drive": false,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI COUNTRYMAN.",
+                "thumbnail": "thumbnail_countryman_mini"
+            },
+            {
+                "template_color": "207,28,17",
+                "imagen": "countryman_mini_cooper",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tEl motor impresiona por su potencia inmensa. Cada uno de los componentes tiene que pasar duras pruebas antes de merecer el distintivo &quot;John Cooper Works&quot;. El resultado: Caracter&iacute;sticas de un motor apto para carreras as&iacute; como pistones y v&aacute;lvulas muy fuertes hacen que el motor de inyecci&oacute;n directa de 1,6 litros alcance su rendimiento m&aacute;ximo. Con overboost, el par m&aacute;ximo se vuelve a aumentar en 20 Nm a 280 Nm. &iquest;Moderaci&oacute;n? Casi imposible.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI COOPER COUNTRYMAN.",
+                "thumbnail": "thumbnail_countryman_mini_cooper"
+            },
+            {
+                "template_color": "255,255,255",
+                "imagen": "countryman_mini_cooper_s",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\tTodo deportividad. El MINI Cooper S impresiona por su caracter&iacute;stica toma de aire en el cap&oacute;, la parrilla delantera de dise&ntilde;o hexagonal con marco cromado y las inconfundibles tomas de aire en la parrilla inferior para la ventilaci&oacute;n de los frenos. Subraya su potencia con las deportivas llantas de aleaci&oacute;n ligera de 16 pulgadas, el doble tubo de escape en posici&oacute;n central y el vigoroso fald&oacute;n trasero.</p>\r\n</div>\r\n</body>\r\n</html>\r\n",
+                "nombre": "MINI COOPER S COUNTRYMAN.",
+                "thumbnail": "thumbnail_countryman_mini_cooper_s"
+            },
+            {
+                "template_color": "255,255,255",
+                "imagen": "countryman_mini_all4",
+                "test_drive": true,
+                "descripcion": "<html>\r\n<head>\r\n<style type=\"text/css\">\r\nbody {\r\n   font-family: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif; \r\n   font-weight: 300;\r\n}\r\n</style>\r\n</head>\r\n<body style=\"background-color:black;\">\r\n<div style=\"background-color:black\">\r\n\t<p align=\"justify\" style=\"color:white;\">\r\n\t\tParece un gokart. Pero para adultos. Las barras de la parrilla delantera del MINI Cooper est&aacute;n cromadas. Para el techo se puede elegir de serie entre el negro y el blanco, contrastando con el color de la carrocer&iacute;a. A juego: el color de la tapas de los retrovisores. Los tiradores del port&oacute;n trasero relucen en cromo. Y tambi&eacute;n sus deportivas llantas de aleaci&oacute;n ligera de 15 pulgadas se ofrecen de serie.</p>\r\n</div>\r\n</body>\r\n</html>",
+                "nombre": "MINI COUNTRYMAN ALL 4.",
+                "thumbnail": "thumbnail_countryman_all4"
+            }
+        ],
+        "thumbnail": "thumbnail_countryman"
+    }
+    
+
+]
+}
